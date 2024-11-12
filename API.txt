@@ -1,0 +1,96 @@
+
+{
+  "username": "johndoe",
+  "email": "johndoe@example.com",
+  "password": "password123",
+  "profilePicture": "base64_encoded_image"
+}
+
+{
+  "message": "User registered successfully",
+  "userId": "user_id",
+  "token": "jwt_token"
+}
+
+{
+  "usernameOrEmail": "johndoe",
+  "password": "password123"
+}
+
+{
+  "message": "Login successful",
+  "userId": "user_id",
+  "token": "jwt_token"
+}
+
+{
+  "userId": "user_id",
+  "image": "base64_encoded_image",
+  "caption": "Exploring the mountains!"
+}
+
+{
+  "message": "Post created successfully",
+  "postId": "post_id"
+}
+
+[
+  {
+    "postId": "post_id",
+    "userId": "user_id",
+    "username": "johndoe",
+    "profilePicture": "url_to_profile_pic",
+    "image": "url_to_image",
+    "caption": "Exploring the mountains!",
+    "createdAt": "timestamp",
+    "likesCount": 120,
+    "commentsCount": 15
+  }
+]
+
+{
+  "userId": "user_id",
+  "postId": "post_id"
+}
+
+{
+  "message": "Post liked",
+  "likesCount": 121
+}
+
+{
+  "userId": "user_id",
+  "postId": "post_id",
+  "comment": "Amazing view!"
+}
+
+{
+  "message": "Comment added",
+  "commentId": "comment_id"
+}
+
+{
+  "followerId": "user_id",
+  "followeeId": "target_user_id"
+}
+
+{
+  "message": "Followed successfully",
+  "followingCount": 300,
+  "followersCount": 450
+}
+
+{
+  "followerId": "user_id",
+  "followeeId": "target_user_id"
+}
+
+{
+  "message": "Unfollowed successfully",
+  "followingCount": 299,
+  "followersCount": 450
+}
+      
+
+
+
